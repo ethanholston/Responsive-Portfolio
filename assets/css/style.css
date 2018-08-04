@@ -144,3 +144,50 @@ footer{
 }
 
 
+@media screen and (max-width: 980px){
+    .maincontent{
+        margin-left: 50px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .maincontent{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .navbar{
+        width: 95%;
+    }
+    table{
+        width: 95%;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 640px){
+    nav {
+        position: static;
+        
+    }
+    h1{
+        width: 100%;
+    }
+    .navlinks{
+        width: 100%;
+        margin-top: -10px;
+        background-color: white;
+        text-align: center;
+    }
+    #pic{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+}
